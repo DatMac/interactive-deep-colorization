@@ -89,7 +89,7 @@ class GUIDraw(QWidget):
         self.image_loaded = True
         self.image_file = image_file
         print(image_file)
-        image_file = image_file.decode('utf8')#'test_imgs/mortar_pestle.jpg'
+        image_file = image_file.decode('utf8') #'test_imgs/mortar_pestle.jpg'
         im_bgr = cv2.imread(image_file)
         self.im_full = im_bgr.copy()
         # get image for display
